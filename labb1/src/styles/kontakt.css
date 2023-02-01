@@ -1,0 +1,94 @@
+*{
+    
+    box-sizing: border-box;
+    color: black;
+}
+header{
+    width: 100%;
+    margin-bottom: 5%;
+  
+}
+header img{
+    width: 150px;
+}
+header h1{
+    float: right;
+    margin-right: 45%;
+    font-size: 40px; 
+    
+}
+header a{
+    color: black;
+}
+header a:link{
+    text-decoration: none;
+}
+#meny ul{
+    list-style-type: none;
+    margin: 0%;
+    padding-left: 38%;
+    overflow: hidden;
+    background-color:rgb(123, 143, 161);
+
+}
+#meny li{
+    float:left;
+    padding: 20px;
+    font-size: xx-large;
+    background-color: rgb(123, 143, 161);
+    
+
+}
+ #meny a{
+    margin: 0 auto;
+    display: block;
+    color: black;
+    background-color:rgb(255,255,255) ;
+    text-align: center;
+    padding: 5px;
+    text-decoration: none;
+    border: 3px solid black;
+    border-radius: 10px;
+
+}
+
+.olsson{
+    width: 32%;
+    text-align: center;
+    margin: auto;
+    background-color:white;
+    border-width: 5px;
+    border-style: solid;
+    border-color:#cfb997;
+    border-radius: 4px;
+}
+.erkan{
+    width: 32%;
+    text-align: center;
+    margin: auto;
+    background-color:white;
+    border-width: 5px;
+    border-style: solid;
+    border-color:#cfb997;
+    border-radius: 4px;
+}
+.tim{
+    width: 32%;
+    text-align: center;
+    margin: auto;
+    background-color:white;
+    border-width: 5px;
+    border-style: solid;
+    border-color:#cfb997;
+    border-radius: 4px;
+}
+main{
+    display:flex;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 100%;
+    background-color: #567189;
+}
+body{
+    background-color: #567189;
+}

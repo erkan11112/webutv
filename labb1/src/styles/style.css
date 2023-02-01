@@ -1,0 +1,173 @@
+*{
+    background-color:rgb(86,113,137);
+    box-sizing: border-box;
+    color: black;
+}
+header{
+    width: 100%;
+  
+}
+header img{
+    width: 150px;
+}
+header h1{
+    float: right;
+    margin-right: 45%;
+    font-size: 40px;
+    
+    
+    
+}
+header a{
+    color: black;
+}
+header a:link{
+    text-decoration: none;
+}
+#meny ul{
+    list-style-type: none;
+    margin: 0%;
+    padding-left: 38%;
+    overflow: hidden;
+    background-color:rgb(123, 143, 161);
+
+}
+#meny li{
+    float:left;
+    padding: 20px;
+    font-size: xx-large;
+    background-color: rgb(123, 143, 161);
+    
+
+}
+ #meny a{
+    margin: 0 auto;
+    display: block;
+    color: black;
+    background-color:rgb(255,255,255) ;
+    text-align: center;
+    padding: 5px;
+    text-decoration: none;
+    border: 3px solid black;
+    border-radius: 10px;
+
+}
+.container{
+    margin: 5%;
+    display: flex;
+}
+main{
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+main p{
+    font-size: medium;
+    background-color:rgb(123, 143, 161);
+}
+.left{
+    
+    
+    height: fit-content;
+    background-color:rgb(123, 143, 161);
+    margin-bottom: 5%;
+    
+}
+.left p,iframe{
+
+    margin-left: 7%;
+    margin-right: 5%;
+
+    
+    
+}
+.left iframe{
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+
+
+}
+.left h2{
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+    background-color: rgb(123, 143, 161);
+}
+
+
+.right{
+    flex-wrap: wrap;
+    margin-left: 10%;
+    
+   
+    
+   
+    
+
+}
+.right img{
+    margin-left: 30%;
+    margin-bottom: 50%;
+    width: 300px;
+    
+    
+    
+}
+#produkter{
+    width: 100%;
+
+    
+}
+#produkter h2{
+
+    text-align: center;
+
+}
+#produkter ul{
+    list-style: none;
+    text-decoration: none;
+}
+#produkter li{
+    background-color: rgb(255,255,255);
+    vertical-align: middle;
+    
+}
+#produkter img{
+    padding-left: 25%;
+    width: 70%;
+    height: 70%;
+    background-color: rgb(255,255,255);
+
+}
+.produkt1{
+    
+    border: 3px solid rgb(86,113,137);
+}
+.produkt1:hover{
+    border: 3px solid rgb(250,214,165);
+    
+}
+.produkt_info h3{
+    font-style: italic;
+    background-color: rgb(255,255,255);
+    
+    text-align: center;
+    
+}
+.produkt_info,.produkt_info p{
+    background-color: rgb(255,255,255);
+    display: inline-block;
+    padding: 10px;
+    
+}
+.produkt_info a,.produkt_info a:link{
+    background-color: rgb(255,255,255);
+    padding: 10px;
+}
+
+
+
+
