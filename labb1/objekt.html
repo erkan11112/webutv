@@ -3,16 +3,16 @@
    <head>
         <title>Snus4all</title>
         <meta charset="UTF-8">
-        <link rel="stylesheet" href="src/styles/varor.css">
+        <link rel="stylesheet" href="src/styles/varor.css"> <!-- Filen är länkad till varor.css -->
     </head> 
     <body>
         <header>
             <a href="index.html">
-                <img src="src/img/snus4all_logo.png" alt="hemsida logotyp">
+                <img src="src/img/snus4all_logo.png" alt="hemsida logotyp"> <!-- Bild för egengjord huvudlogotyp-->
             </a>
            
-            <h1><a href="index.html">Snus4all</a></h1>
-            <div id="meny">
+            <h1><a href="index.html">Snus4all</a></h1> <!-- Vid tryck på Snus4All kommen man tillbaka till startstidan -->
+            <div id="meny"> <!-- Div för menyn där man kan trycka på samtliga objekt för att komma till respektive sida -->
                 <ul>
                     <li><a href="index.html">Hem</a></li>
                     <li><a href="index.html">Varor</a></li>
@@ -20,15 +20,15 @@
                 </ul>
             </div>
         </header>
-        <div class="produktloop">
+        <div class="produktloop"> <!-- div för generell information -->
                 <h1>Fri frakt över 300kr</h1>
                 <h1>Totalt två produkter</h1>
         </div>
         <main>
-            <div class="left-col">
-                <img src="src/img/loopjala.png" alt="loop_jalapeno">
+            <div class="left-col"> <!-- div för produktens bild -->
+                <img src="src/img/loopjala.png" alt="loop_jalapeno"> <!-- https://media.snusbolaget.se/snusbolaget/images/302218-g-2022-04-22-093618708/0/0/2/loop-jalapeno-lime-strong-all-white.png!-->
             </div>
-            <div class="right-col"> 
+            <div class="right-col"> <!-- div för produktens information samt för alternativ såsom val av antal och lägg till varukorg. -->
                 <b>LOOP - Jalapeno Lime Strong</b>
                 <p>Pris: 39.99kr/st</p>
                 <p>Loop Jalapeno är en variant av snus från märket Loop. Det är en smaksatt snus med smak av jalapeno, 
@@ -36,8 +36,8 @@
                     som ger en kryddig och het upplevelse. Loop Jalapeno är ett portionerat snus med ett högt nikotininnehåll, 
                     och är lämpligt för erfarna snusanvändare som söker en stark och smakfull upplevelse.</p>
                     <input type="submit" value="Lägg till i varukorg">
-                    <label for="antal">Välj antal:</label>
-                    <select name="Antal" id="antal">
+                    <label for="antal">Välj antal:</label> <!-- Knapp för antal st av produkten som kan läggas till i kundkorgen -->
+                    <select name="Antal" id="antal"> <!-- Innehåller de olika alternativen av antal st -->
                         <option>1</option> 
                         <option>2</option>
                         <option>3</option> 
@@ -50,12 +50,12 @@
                         <option>10</option> 
                     </select>
             </div>
-            <table class="tabell">
-                <tr class="info">
+            <table class="tabell"> <!-- tabell för användarnamn och recension av kunden -->
+                <tr class="info"> <!-- tabellrad för användare 1 och dess recension -->
                     <td>Maja35:</td>
                     <td>Skit dålig produkt 1/5</td>
                 </tr>
-                <tr class="info">
+                <tr class="info"> <!-- tabellrad för användare 2 och dess recension -->
                     <td>Henke76: </td>
                     <td>Skit bra produkt 5/5</td>
                 </tr>
